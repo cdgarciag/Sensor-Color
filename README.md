@@ -1,11 +1,11 @@
 # Sensor-Color
-Librería Sensor color rojo-amarillo/verde con separación de servomotores por color\\
-  Introducción:\\
+Librería Sensor color rojo-amarillo/verde con separación de servomotores por color.
+  Introducción.
 En este proyecto, se diseña un sistema embebido utilizando una FPGA (Field-Programmable Gate Array) para controlar un sensor de colores y dos servomotores. El sensor de colores empleado es el TCS3200, un sensor capaz de detectar diferentes colores en base a la frecuencia de salida generada al iluminar una superficie con luz blanca. La frecuencia generada por el sensor varía en función del color detectado, lo que permite distinguir entre diferentes colores como rojo, verde y otros.
 
 La FPGA actúa como el controlador principal del sistema, interpretando la señal del sensor para identificar el color de un objeto. Según el color detectado, se activan los servomotores, que ajustan su posición en consecuencia. Este proyecto es un ejemplo de cómo se puede utilizar hardware programable para diseñar sistemas interactivos y de respuesta rápida, combinando el procesamiento de señales digitales y el control de actuadores.
 
-  Objetivos:\\
+  Objetivos.
 1.Diseñar y sintetizar un módulo en Verilog para procesar la señal del sensor de colores TCS3200 y determinar el color detectado en función de la frecuencia de salida.
 
 2.Implementar control PWM para servomotores utilizando la FPGA. La posición de los servos dependerá del color detectado por el sensor, moviéndose a posiciones predefinidas para cada color (rojo, verde y otros).
