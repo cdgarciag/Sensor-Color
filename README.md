@@ -18,12 +18,12 @@ La FPGA actúa como el controlador principal del sistema, interpretando la seña
 
 6.Cargar el diseño en una FPGA física y verificar su funcionamiento en tiempo real utilizando un entorno de hardware (conexiones de sensor, servomotores, etc.).
 
-  Realizacion del proyecto
+ # Realizacion del proyecto
   
-  Diagrama de flujo
+   ## Diagrama de flujo
 <img src="https://raw.githubusercontent.com/cdgarciag/Sensor-Color/refs/heads/main/Imagen%20de%20WhatsApp%202024-09-23%20a%20las%2011.38.44_0bca3c8c.jpg" alt="Descripción de la imagen" width="300px">
 
-  Primer paso: realizacion de la deteccion de colores con el sensor TCS3200 con el filtro rojo
+  ## Primer paso: realizacion de la deteccion de colores con el sensor TCS3200 con el filtro rojo
  "https://youtube.com/shorts/jnEY-yCBN_E?feature=share"
 
 
