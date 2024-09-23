@@ -21,6 +21,6 @@ La FPGA actúa como el controlador principal del sistema, interpretando la seña
   Realizacion del proyecto
   
   Diagrama de flujo:
-<img src="C:\Users\krist\OneDrive - Universidad Nacional de Colombia\Documentos\GitHub\Sensor-Color" alt="Descripción de la imagen" width="300px">
+<img src="https://raw.githubusercontent.com/cdgarciag/Sensor-Color/refs/heads/main/Imagen%20de%20WhatsApp%202024-09-23%20a%20las%2011.38.44_0bca3c8c.jpg" alt="Descripción de la imagen" width="300px">
 
 
