@@ -1,0 +1,21 @@
+# Asignación de pines para el módulo top
+
+# Reloj principal de la FPGA
+set_io mclk 60
+
+
+# Salida del sensor TCS3200
+set_io sensor_clk 17
+set_io sensor_out 23
+set_io pwm_out1 26
+set_io pwm_out2 28
+
+
+# LEDs en la FPGA
+set_io es_verde 38  # Pin para el LED verde
+set_io es_rojo 37  # Pin para el rojo
+set_io es_azul 10  # Pin para el LED azul
+
+# Pines para la selección de filtros del sensor TCS3200
+set_io filtro_sel[0] 16  # Bit 0 del filtro_sel (Filtro rojo/verde/azul)
+set_io filtro_sel[1] 18  # Bit 1 del filtro_sel (Filtro rojo/verde/azul)
