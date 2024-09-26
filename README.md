@@ -31,7 +31,7 @@ Una vez concluido con el diagrama y las funciones de nuestro proyecto empezamos 
 2-Detector de color
 Identificamos un sensor de color el tcs3200 para tener una señal digital a la fpga [Sensor TCS3200](https://github.com/cdgarciag/Sensor-Color/blob/main/tcs3200-e11.pdf); luego caracterizamos las señales de cada filtro del sensor.
 
-<img src="https://raw.githubusercontent.com/cdgarciag/Sensor-Color/refs/heads/main/IMG-20240926-WA0062.jpg" alt="Caracterizacion colores con cada filtro" width="300px">.
+<img src="https://raw.githubusercontent.com/cdgarciag/Sensor-Color/refs/heads/main/IMG-20240926-WA0062.jpg" alt="Caracterizacion colores con cada filtro" width="1200px">.
 
 
 Se realizo la deteccion de colores con el sensor TCS3200 con el filtro rojo; una vez obtenido la caracterización, se procede a trabajar en código por medio de salidas a leds, dónde al identificar rojo y/o sus escalas prendía el led rojo; al detectar amarillo y/o verde encendía un LED amarillo y por último si estaba fuera de esos colores encendía led azul, es importante tener un ambiente controlado y una fina caracterización de las frecuencias en los colores, de lo contrario podría encender el led equivocado o no hacer nada (se pone código o imagen de este??? Opcional??)
