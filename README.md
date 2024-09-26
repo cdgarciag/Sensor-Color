@@ -35,6 +35,8 @@ Identificamos un sensor de color el tcs3200 para tener una señal digital a la f
 
 
 Se realizo la caracterización de colores con el sensor TCS3200 con el filtro rojo; una vez obtenido la caracterización, se procede a trabajar en código por medio de salidas a leds, dónde al identificar rojo y/o sus escalas prendía el led rojo; al detectar amarillo y/o verde encendía un LED amarillo y por último si estaba fuera de esos colores encendía led azul, es importante tener un ambiente controlado y una fina caracterización de las frecuencias en los colores, de lo contrario podría encender el led equivocado o no hacer nada, a continuacion ya se encuentra el codigo terminado con las salidas a los servos [Codigo sensor color](https://github.com/cdgarciag/Sensor-Color/blob/main/sensor_finish.v); ademas aqui un [video mostrando nuestro sensor de colores con las salidas de los LEDS](https://youtube.com/shorts/jnEY-yCBN_E?feature=share)
- ""
 
+*servomotores*
+Tomamos los servomotores tales xxxxxxx(imagen, link datasheet) los cuales podrían servir con la función de seleccionar o separar el objetivo según el color programado
+Una vez tenido el código de estos, empezamos a integrar los códigos de cada "módulo" hecho, intentamos de dos formas una la cual implementar todo en un solo verilog, y la otra dónde en velilogs separados solo llamábamos al módulo que se necesita para su funcionamiento,  por ende optamos por la segunda opción, la cual nos fue más viable y menos errores al ejecutar, así que solo tuvimos pequeñas modificaciones como que las salidas del sensor tcs3200 ya no son led_rojo, led_amarillo, ni led_azul, ahora iban a ser (corregir a como este en el código) servo1 para los colores rojo, servo2 para colores amarillos/ verdes y de resto ignorar, dejando así que sigan por la banda para otra posible selección de otro tipo mas detallada (según especificaciones del cliente final)
 
