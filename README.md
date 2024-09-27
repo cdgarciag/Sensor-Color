@@ -21,15 +21,15 @@ La FPGA actúa como el controlador principal del sistema, interpretando la seña
 
  # Realizacion del proyecto
   
-   ## Diagrama de flujo[Diagrama de Flujo](https://github.com/cdgarciag/Sensor-Color/blob/main/Diagrama%20en%20blanco.svg);
+   ## [Diagrama de Flujo](https://github.com/cdgarciag/Sensor-Color/blob/main/Diagrama%20en%20blanco.svg)(click para ver mejor)
 <img src="https://raw.githubusercontent.com/cdgarciag/Sensor-Color/refs/heads/main/Imagen%20de%20WhatsApp%202024-09-23%20a%20las%2011.38.44_0bca3c8c.jpg" alt="Diagrama de flujo" width="750px">
 
-  ## Primer paso:
-1- *Motor paso a paso*
+
+## 1- *Motor paso a paso*
 
 Una vez concluido con el diagrama y las funciones de nuestro proyecto empezamos a trabajar en el motor paso a paso para nuestra banda, la cual se encargará de transportar el objetivo a identificar, utilizamos el motor 28BYJ48 [IR A DATASHEET MOTOR](https://www.alldatasheet.com/html-pdf/1245086/ETC1/28BYJ48/111/1/28BYJ48.html); como resultado tenemos el siguiente codigo [codigo motor paso a paso](https://github.com/cdgarciag/Sensor-Color/blob/main/Verilog/stepper_motor_control.v)
 
-2- *Detector de color*
+## 2- *Detector de color*
 Identificamos un sensor de color el tcs3200 para tener una señal digital a la fpga [Sensor TCS3200](https://github.com/cdgarciag/Sensor-Color/blob/main/tcs3200-e11.pdf); luego caracterizamos las señales de cada filtro del sensor.
 
 <img src="https://raw.githubusercontent.com/cdgarciag/Sensor-Color/refs/heads/main/IMG-20240926-WA0062.jpg" alt="Caracterizacion colores con cada filtro" width="1200px">.
@@ -37,16 +37,16 @@ Identificamos un sensor de color el tcs3200 para tener una señal digital a la f
 
 Se realizo la caracterización de colores con el sensor TCS3200 con el filtro rojo; una vez obtenido la caracterización, se procede a trabajar en código por medio de salidas a leds, dónde al identificar rojo y/o sus escalas prendía el led rojo; al detectar amarillo y/o verde encendía un LED amarillo y por último si estaba fuera de esos colores encendía led azul, es importante tener un ambiente controlado y una fina caracterización de las frecuencias en los colores, de lo contrario podría encender el led equivocado o no hacer nada, a continuacion ya se encuentra el codigo terminado con las salidas a los servos [Codigo sensor color](https://github.com/cdgarciag/Sensor-Color/blob/main/Verilog/sensor_finish.v); ademas aqui un [video mostrando nuestro sensor de colores con las salidas de los LEDS](https://youtube.com/shorts/jnEY-yCBN_E?feature=share)
 
-3- *servomotores*
+## 3- *servomotores*
 
 Tomamos los servomotores  [SG90](https://www.alldatasheet.es/html-pdf/1572383/ETC/SG90/59/1/SG90.html) los cuales podrían servir con la función de seleccionar o separar el objetivo según el color programado<br>
 Una vez obtenido el [código Verilog de los servos](https://github.com/cdgarciag/Sensor-Color/blob/main/Verilog/servomotor_finish.v), empezamos a integrar los códigos de cada "módulo" hecho, intentamos de dos formas una la cual implementa todo en un solo verilog, y la otra dónde en verilog separados solo llamábamos al módulo que se necesita para su funcionamiento,  por ende optamos por la segunda opción, la cual nos fue más viable y menos errores al ejecutar, así que solo tuvimos pequeñas modificaciones como que las salidas del sensor tcs3200 ya no son led_rojo, led_amarillo, ni led_azul, ahora iban a ser entradas para los servomotores; servo1 para los colores rojo, servo2 para colores amarillos/ verdes y de resto ignorar, dejando así que sigan por la banda para otra posible selección de otro tipo mas detallada (según especificaciones del cliente final)
 
-4-*Sensor de posicion*
+## 4-*Sensor de posicion*
 Para evitar que los servos actuaran debido a ruido u alguna señal de color que no sea deseada pusimos un [sensor de obstaculos infrarrojo](https://www.murkyrobot.com/guias/sensores/detector-obstaculos-infrarrojo) donde manda una señal al inicio de los servos y estos inicien al detectar un obstaculo.
 <img src="https://raw.githubusercontent.com/cdgarciag/Sensor-Color/refs/heads/main/CLON-MH-SENSOR_800x800.jpeg" alt="sensor de posicion" width="750px">.
 
-5-*Armado de la banda transportadora y sus partes*
+## 5-*Armado de la banda transportadora y sus partes*
 
 Materiales:
 
