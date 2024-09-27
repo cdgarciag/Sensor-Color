@@ -60,9 +60,9 @@ Materiales:
 *luego se hace un pequeño cuarto con acrilico para poner el sensor TCS3200 y el sensor de posicion, asi tener un ambiente mas controlado de la luz externa<br>
 *se hace una base a los servomotores y se pegan en linea para que queden cerca a la banda<br>
 *ya con esto se hacen conexiones a la fpga y fuente de alimentacion<br>
-<img src="https://raw.githubusercontent.com/cdgarciag/Sensor-Color/refs/heads/main/IMG-20240927-WA0011.jpg" alt="Caracterizacion colores con cada filtro" width="750px">.
-<img src="https://raw.githubusercontent.com/cdgarciag/Sensor-Color/refs/heads/main/IMG-20240927-WA0015.jpg" alt="Caracterizacion colores con cada filtro" width="750px">.
-<img src="https://raw.githubusercontent.com/cdgarciag/Sensor-Color/refs/heads/main/IMG-20240927-WA0013.jpg" alt="Caracterizacion colores con cada filtro" width="750px">.
+<img src="https://raw.githubusercontent.com/cdgarciag/Sensor-Color/refs/heads/main/IMG-20240927-WA0011.jpg" alt="Caracterizacion colores con cada filtro" width="360px">.
+<img src="https://raw.githubusercontent.com/cdgarciag/Sensor-Color/refs/heads/main/IMG-20240927-WA0015.jpg" alt="Caracterizacion colores con cada filtro" width="360px">.
+<img src="https://raw.githubusercontent.com/cdgarciag/Sensor-Color/refs/heads/main/IMG-20240927-WA0013.jpg" alt="Caracterizacion colores con cada filtro" width="360px">.
 
 # CONCLUSIONES
 
