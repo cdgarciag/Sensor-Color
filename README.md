@@ -6,7 +6,7 @@ En este proyecto, se diseña un sistema embebido utilizando una FPGA (Field-Prog
 La FPGA actúa como el controlador principal del sistema, interpretando la señal del sensor para identificar el color de un objeto. Según el color detectado, se activan los servomotores, que ajustan su posición en consecuencia. Este proyecto es un ejemplo de cómo se puede utilizar hardware programable para diseñar sistemas interactivos y de respuesta rápida, combinando el procesamiento de señales digitales y el control de actuadores.
 
  # Objetivos.
- Falta objetivo generAL
+
 1.Diseñar y sintetizar un módulo en Verilog para procesar la señal del sensor de colores TCS3200 y determinar el color detectado en función del periodode la señal de salida.
 
 2.Implementar control PWM para servomotores utilizando la FPGA. La posición de los servos dependerá del color detectado por el sensor, moviéndose a posiciones predefinidas para cada color (rojo, verde y otros).
