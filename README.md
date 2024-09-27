@@ -46,15 +46,15 @@ Una vez obtenido el [código Verilog de los servos](https://github.com/cdgarciag
 
 Materiales:
 
--dos pliegos de carton paja
--lamina de acrilico
--silicona
--caucho neumatico de bicicleta
--tubo pvc
-*se hacen los rodillos con el tubo pvc y se pegan a los servomotores, se hacen soportes para darle altura y estabilidad
-*luego se hace una base firme, con acrilico y carton paja
-*luego se hace un pequeño cuarto con acrilico para poner el sensor TCS3200 y el sensor de posicion, asi tener un ambiente mas controlado de la luz externa
-* se hace una base a los servomotores y se pegan en linea para que queden cerca a la banda
-*ya con esto se hacen conexiones a la fpga y fuente de alimentacion
+-dos pliegos de carton paja<br>
+-lamina de acrilico<br>
+-silicona<br>
+-caucho neumatico de bicicleta<br>
+-tubo pvc<br>
+*se hacen los rodillos con el tubo pvc y se pegan a los servomotores, se hacen soportes para darle altura y estabilidad<br>
+*luego se hace una base firme, con acrilico y carton paja<br>
+*luego se hace un pequeño cuarto con acrilico para poner el sensor TCS3200 y el sensor de posicion, asi tener un ambiente mas controlado de la luz externa<br>
+* se hace una base a los servomotores y se pegan en linea para que queden cerca a la banda<br>
+*ya con esto se hacen conexiones a la fpga y fuente de alimentacion<br>
 obtenemos esto
 
