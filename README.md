@@ -42,7 +42,7 @@ Se realizo la caracterización de colores con el sensor TCS3200 con el filtro ro
 Tomamos los servomotores  [SG90](https://www.alldatasheet.es/html-pdf/1572383/ETC/SG90/59/1/SG90.html) los cuales podrían servir con la función de seleccionar o separar el objetivo según el color programado<br>
 Una vez obtenido el [código Verilog de los servos](https://github.com/cdgarciag/Sensor-Color/blob/main/Verilog/servomotor_finish.v), empezamos a integrar los códigos de cada "módulo" hecho, intentamos de dos formas una la cual implementa todo en un solo verilog, y la otra dónde en verilog separados solo llamábamos al módulo que se necesita para su funcionamiento,  por ende optamos por la segunda opción, la cual nos fue más viable y menos errores al ejecutar, así que solo tuvimos pequeñas modificaciones como que las salidas del sensor tcs3200 ya no son led_rojo, led_amarillo, ni led_azul, ahora iban a ser entradas para los servomotores; servo1 para los colores rojo, servo2 para colores amarillos/ verdes y de resto ignorar, dejando así que sigan por la banda para otra posible selección de otro tipo mas detallada (según especificaciones del cliente final)
 
-## 4-*Sensor de posicion*
+## 4-*Sensor Infrarrojo*
 Para evitar que los servos actuaran debido a ruido u alguna señal de color que no sea deseada pusimos un [sensor de obstaculos infrarrojo](https://www.murkyrobot.com/guias/sensores/detector-obstaculos-infrarrojo) donde manda una señal al inicio de los servos y estos inicien al detectar un obstaculo.
 <img src="https://raw.githubusercontent.com/cdgarciag/Sensor-Color/refs/heads/main/CLON-MH-SENSOR_800x800.jpeg" alt="sensor de posicion" width="750px">.
 
