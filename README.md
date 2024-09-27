@@ -30,14 +30,14 @@ La FPGA actúa como el controlador principal del sistema, interpretando la seña
   ## [RTL de top.v](https://github.com/cdgarciag/Sensor-Color/blob/main/IMG-20240927-WA0023.jpg) (click para ver mejor)
   <img src="https://github.com/cdgarciag/Sensor-Color/blob/main/IMG-20240927-WA0023.jpg" alt="Diagrama de flujo" width="750px">
   
-  ## [Diagrama de Bloques](https://github.com/cdgarciag/Sensor-Color/blob/main/IMG-20240927-WA0019.jpg) (click para ver mejor)
-  <img src="https://github.com/cdgarciag/Sensor-Color/blob/main/IMG-20240927-WA0019.jpg" alt="Diagrama de flujo" width="750px">
+  ## [RTL sensor de color](https://github.com/cdgarciag/Sensor-Color/blob/main/IMG-20240927-WA0024.jpg) (click para ver mejor)
+  <img src="https://github.com/cdgarciag/Sensor-Color/blob/main/IMG-20240927-WA0024.jpg" alt="Diagrama de flujo" width="750px">
 
-  ## [Diagrama de Bloques](https://github.com/cdgarciag/Sensor-Color/blob/main/IMG-20240927-WA0019.jpg) (click para ver mejor)
-  <img src="https://github.com/cdgarciag/Sensor-Color/blob/main/IMG-20240927-WA0019.jpg" alt="Diagrama de flujo" width="750px">
+  ## [RTL Servomotores](https://github.com/cdgarciag/Sensor-Color/blob/main/IMG-20240927-WA0025.jpg) (click para ver mejor)
+  <img src="https://github.com/cdgarciag/Sensor-Color/blob/main/IMG-20240927-WA0025.jpg" alt="Diagrama de flujo" width="750px">
 
-  ## [Diagrama de Bloques](https://github.com/cdgarciag/Sensor-Color/blob/main/IMG-20240927-WA0019.jpg) (click para ver mejor)
-  <img src="https://github.com/cdgarciag/Sensor-Color/blob/main/IMG-20240927-WA0019.jpg" alt="Diagrama de flujo" width="750px">
+  ## [RTL Paso a Paso](https://github.com/cdgarciag/Sensor-Color/blob/main/IMG-20240927-WA0026.jpg) (click para ver mejor)
+  <img src="https://github.com/cdgarciag/Sensor-Color/blob/main/IMG-20240927-WA0026.jpg" alt="Diagrama de flujo" width="750px">
   
 ## 1- *Motor paso a paso*
 
