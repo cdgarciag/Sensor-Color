@@ -68,6 +68,8 @@ Materiales:
 
 *Lo mas notorio en nuestro proyecto es que el sensor TCS3200 es muy sensible ante los cambios de luz, lo cual podria cambiar mucho las frecuencias, quisimos hacer un ambiente controlado para el sensor, el cual nos funciono para las pruebas con los leds, pero a la hora de montar con la banda trasnportadora variaba mucho ya que tocaba dejar entrada y salida, por ende entraba luz y ruido del medio ambiente
 
+*Como nos limitamos a 2 colores, usamos el filtro rojo del TCS3200; por ende intuimos que para un trabajo mayor, con mayor gama de colores, y quizas mayor precision, se podrian usar los 3 filtros del TCS3200, y agregando comparadores a nuestro codigo.
+
 *Nos preguntabamos ¿que pasa si el objeto a sensar se encuentra pegado con otro?,los servomotores se activan al tiempo y podrian enviar un color por una banda incorrecta, entonces concluimos que se  podrian tener mas sensores de posicion para cada servomotor, donde donde llego el objeto y activo el servo o tambien poner en la banda transportadora una separacion como cajas, canales, para que tengan un espacio entre objetos y asi solo sea tener un tiempo(intervalo) entre la deteccion de color y el servo correspondiente
 
 *se podria mejorar la estructura con mejores y mas materiales
