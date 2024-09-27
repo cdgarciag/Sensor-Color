@@ -24,7 +24,7 @@ La FPGA actúa como el controlador principal del sistema, interpretando la seña
    ## [Diagrama de Flujo](https://github.com/cdgarciag/Sensor-Color/blob/main/Diagrama%20en%20blanco.svg)(click para ver mejor)
 <img src="https://raw.githubusercontent.com/cdgarciag/Sensor-Color/refs/heads/main/Imagen%20de%20WhatsApp%202024-09-23%20a%20las%2011.38.44_0bca3c8c.jpg" alt="Diagrama de flujo" width="750px">
 
-  ## [Diagrama de Bloques](https://github.com/cdgarciag/Sensor-Color/blob/main/IMG-20240927-WA0019.jpg)
+  ## [Diagrama de Bloques](https://github.com/cdgarciag/Sensor-Color/blob/main/IMG-20240927-WA0019.jpg) (click para ver mejor)
   <img src="https://github.com/cdgarciag/Sensor-Color/blob/main/IMG-20240927-WA0019.jpg" alt="Diagrama de flujo" width="750px">
 
   ##
