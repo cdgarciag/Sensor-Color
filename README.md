@@ -44,7 +44,7 @@ Una vez obtenido el [código Verilog de los servos](https://github.com/cdgarciag
 
 4-*Sensor de posicion*
 Para evitar que los servos actuaran debido a ruido u alguna señal de color que no sea deseada pusimos un [sensor de obstaculos infrarrojo](https://www.murkyrobot.com/guias/sensores/detector-obstaculos-infrarrojo) donde manda una señal al inicio de los servos y estos inicien al detectar un obstaculo.
-<img src="https://raw.githubusercontent.com/cdgarciag/Sensor-Color/refs/heads/main/CLON-MH-SENSOR_800x800.jpeg" alt="sensor de posicion" width="1200px">.
+<img src="https://raw.githubusercontent.com/cdgarciag/Sensor-Color/refs/heads/main/CLON-MH-SENSOR_800x800.jpeg" alt="sensor de posicion" width="750px">.
 
 5-*Armado de la banda transportadora y sus partes*
 
