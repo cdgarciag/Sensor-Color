@@ -64,7 +64,7 @@ Materiales:
 <img src="https://raw.githubusercontent.com/cdgarciag/Sensor-Color/refs/heads/main/IMG-20240927-WA0015.jpg" alt="Caracterizacion colores con cada filtro" width="750px">.
 <img src="https://raw.githubusercontent.com/cdgarciag/Sensor-Color/refs/heads/main/IMG-20240927-WA0013.jpg" alt="Caracterizacion colores con cada filtro" width="750px">.
 
-#CONCLUSIONES
+# CONCLUSIONES
 
 *Lo mas notorio en nuestro proyecto es que el sensor TCS3200 es muy sensible ante los cambios de luz, lo cual podria cambiar mucho las frecuencias, quisimos hacer un ambiente controlado para el sensor, el cual nos funciono para las pruebas con los leds, pero a la hora de montar con la banda trasnportadora variaba mucho ya que tocaba dejar entrada y salida, por ende entraba luz y ruido del medio ambiente
 
